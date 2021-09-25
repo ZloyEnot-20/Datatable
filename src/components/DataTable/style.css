@@ -1,0 +1,36 @@
+table {
+  width: 800px;
+  height: 400px;
+}
+
+td,
+th {
+  border: 1px solid black;
+  max-height: 10px;
+  height: 20px;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(208, 209, 209);
+}
+tr:nth-child(even) {
+  background-color: rgb(255, 255, 255);
+}
+
+th {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+th:hover {
+  background-color: rgb(143, 199, 248);
+}
+
+tbody tr {
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+tbody tr:hover {
+  background-color: cadetblue;
+}

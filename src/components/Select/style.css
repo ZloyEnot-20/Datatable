@@ -1,0 +1,16 @@
+select {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  size: 0;
+  width: 100px;
+  min-height: 30px;
+  max-height: 150px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+option:hover {
+  background-color: rgb(196, 194, 197);
+}
+/*  */
