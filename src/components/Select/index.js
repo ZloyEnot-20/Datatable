@@ -1,11 +1,11 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { filterByState } from "../../actions";
 import "./style.css";
 
 const Select = ({ allUsersArray }) => {
   const dispatch = useDispatch();
-  const selectRef = useRef();
+
   const [value, setValue] = useState("all");
 
   const states = useSelector((state) => state.states);
